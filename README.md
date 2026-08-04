@@ -1,4 +1,4 @@
-<div align="center"> <img src="https://raw.githubusercontent.com/Ha1mad/Ha1mad/main/assets/Hello.gif" alt="Coding" width="35%" align="center" />
+<div align="center"> <img src="https://raw.githubusercontent.com/Ha1mad/Ha1mad/main/assets/Hello.gif" alt="Coding" width="45%" align="center" />
   
 # Hey, I'm Hamad.
 *A Mobile & Web Developer from Saudi Arabia*

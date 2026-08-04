@@ -1,7 +1,7 @@
 <div align="center">
+<img src="https://media.tenor.com/qCxYWwmISjMAAAAM/lain-serial-experiments-lain.gif" alt="Lain" width="18%" align="center" />
 
-# Hey, I'm Hamad <[img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif](https://media.tenor.com/qCxYWwmISjMAAAAM/lain-serial-experiments-lain.gif)" width="30px" alt="wave"/>
-
+# Hey, I'm Hamad.
 *A Mobile & Web Developer from Saudi Arabia*
 <br/>
 *turning ideas into apps, one commit at a time.*
@@ -11,7 +11,7 @@
 
 ### Stack
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,js,html,css,androidstudio,xcode,git,github" />
+  <img src="https://skillicons.dev/icons?i=react,js,html,css,androidstudio,git,github" />
 </p>
 
 ---
@@ -24,11 +24,13 @@
 [![HabitStreak](https://github-readme-stats.vercel.app/api/pin/?username=Ha1mad&repo=HabitStreak&theme=tokyonight&hide_border=true)](https://github.com/Ha1mad/HabitStreak)
 [![Display-Errors-logs](https://github-readme-stats.vercel.app/api/pin/?username=Ha1mad&repo=Display-Errors-logs&theme=tokyonight&hide_border=true)](https://github.com/Ha1mad/Display-Errors-logs)
 
+
 </div>
 
 ---
 
 <div align="center">
 
+> *"First, master the basics. Then break the rules."*
 
 </div>

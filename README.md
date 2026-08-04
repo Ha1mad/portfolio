@@ -1,36 +1,39 @@
-# Hamad — Portfolio
+<div align="center">
+<img src="https://media.tenor.com/8m_hL9Q2oLcAAAAj/naruto-running.gif" alt="Welcome" width="18%" align="center" />
 
-Personal portfolio for [Hamad](https://github.com/Ha1mad), a mobile developer
-building for iOS and Android from a shared React Native codebase.
+# Hey, I'm Hamad.
+*A Mobile & Web Developer from Saudi Arabia*
+<br/>
+*turning ideas into apps, one commit at a time.*
+</div>
 
-Built with React 19, TypeScript, Vite, and Tailwind CSS v4.
+---
 
-## Getting started
+### Stack
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,js,html,css,androidstudio,xcode,git,github" />
+</p>
 
-```bash
-npm install
-npm run dev
-```
+---
 
-Build for production:
+### Projects
+<div align="center">
 
-```bash
-npm run build
-npm run preview
-```
+![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-## Structure
+[![HabitStreak](https://github-readme-stats.vercel.app/api/pin/?username=Ha1mad&repo=HabitStreak&theme=tokyonight&hide_border=true)](https://github.com/Ha1mad)
+[![Display-Errors-Logs](https://github-readme-stats.vercel.app/api/pin/?username=Ha1mad&repo=Display-Errors-Logs&theme=tokyonight&hide_border=true)](https://github.com/Ha1mad)
 
-- `src/components/` — Nav, Hero, About, Projects, Skills, Contact
-- `src/data/projects.ts` — project content (edit this to add/update projects)
-- `src/index.css` — Tailwind v4 theme tokens (colors, fonts) live under `@theme`
+*// TODO: ship my first job*
 
-## Design notes
+</div>
 
-The palette and hero "build log" animation lean into the iOS/Android duality
-of cross-platform mobile work — a blue accent for iOS, a green accent for
-Android, both resolving to one shared build. The same window-chrome bar used
-in the hero terminal repeats on each project card to keep that motif
-consistent throughout the page.
+---
 
-To swap accent colors or fonts, edit the `@theme` block in `src/index.css`.
+<div align="center">
+
+> *"First, master the basics. Then break the rules."*
+
+<img src="https://media.tenor.com/2roX9dWnkoQAAAAj/naruto-wave.gif" alt="Wave" height="180px" align="center" />
+
+</div>

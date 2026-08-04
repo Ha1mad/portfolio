@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://media.tenor.com/qCxYWwmISjMAAAAM/lain-serial-experiments-lain.gif" alt="Lain" width="18%" align="center" />
+<img src="https://media.tenor.com/qCxYWwmISjMAAAAM/lain-serial-experiments-lain.gif" alt="Lain" width="28%" align="center" />
 
 # Hey, I'm Hamad.
 *A Mobile & Web Developer from Saudi Arabia*

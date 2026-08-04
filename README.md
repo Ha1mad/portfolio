@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hey, I'm Hamad <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" alt="wave"/>
+# Hey, I'm Hamad <[img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif](https://media.tenor.com/qCxYWwmISjMAAAAM/lain-serial-experiments-lain.gif)" width="30px" alt="wave"/>
 
 *A Mobile & Web Developer from Saudi Arabia*
 <br/>

@@ -1,61 +1,20 @@
-import { useEffect, useState } from 'react'
-import { WindowChrome } from './Chrome'
 import { ArrowDownIcon, MailIcon } from './Icons'
 
-const LINES = [
-  '$ react-native run --target=ios,android',
-  '→ resolving shared codebase…',
-  '→ targeting ios       ✓',
-  '→ targeting android   ✓',
-  '✓ build ready — ship it',
-]
-
-function useTypedLines(lines: string[]) {
-  const [done, setDone] = useState<string[]>([])
-  const [current, setCurrent] = useState('')
-  const [lineIndex, setLineIndex] = useState(0)
-
-  useEffect(() => {
-    if (lineIndex >= lines.length) return
-
-    const target = lines[lineIndex]
-    if (current.length < target.length) {
-      const t = setTimeout(() => setCurrent(target.slice(0, current.length + 1)), 22)
-      return () => clearTimeout(t)
-    }
-
-    const t = setTimeout(
-      () => {
-        setDone((d) => [...d, target])
-        setCurrent('')
-        setLineIndex((i) => i + 1)
-      },
-      lineIndex === lines.length - 1 ? 0 : 260,
-    )
-    return () => clearTimeout(t)
-  }, [current, lineIndex, lines])
-
-  return { done, current, finished: lineIndex >= lines.length }
-}
-
 export function Hero() {
-  const { done, current, finished } = useTypedLines(LINES)
-
   return (
-    <section id="top" className="mx-auto grid max-w-5xl gap-12 px-6 pb-20 pt-16 sm:pt-24 lg:grid-cols-[1.1fr_1fr] lg:items-center lg:pb-28">
+    <section id="top" className="mx-auto grid max-w-5xl gap-12 px-6 pb-20 pt-16 sm:pt-24 lg:grid-cols-[1.15fr_.85fr] lg:items-end lg:pb-28">
       <div className="animate-fade-up">
         <p className="mb-4 font-mono text-[13px] text-muted">
-          <span className="text-ios">●</span> ios <span className="mx-1 text-border">/</span>
-          <span className="text-android">●</span> android
+          Hamad Alharbi <span className="mx-1 text-border">/</span> Mobile &amp; Web Developer
         </p>
         <h1 className="font-display text-4xl font-semibold leading-[1.1] tracking-tight sm:text-5xl">
-          Hamad builds apps
+          Thoughtful software,
           <br />
-          that live in your pocket.
+          from idea to interface.
         </h1>
         <p className="mt-6 max-w-md text-[15px] leading-relaxed text-muted">
-          Mobile developer shipping for iOS and Android from a single React Native
-          codebase — cross-platform without the compromise.
+          I build useful mobile and web products with React Native, Expo, TypeScript,
+          and a strong focus on clear, dependable user experiences.
         </p>
         <div className="mt-8 flex flex-wrap items-center gap-4">
           <a
@@ -75,25 +34,12 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="animate-fade-up overflow-hidden rounded-xl border border-border bg-surface shadow-2xl shadow-black/40 [animation-delay:150ms]">
-        <WindowChrome label="build.log" />
-        <div className="min-h-[220px] px-5 py-5 font-mono text-[13px] leading-7">
-          {done.map((line, i) => {
-            const isLast = i === done.length - 1
-            return (
-              <div key={i} className={line.startsWith('✓') ? 'text-android' : 'text-muted'}>
-                {line}
-                {finished && isLast && <span className="animate-caret">▍</span>}
-              </div>
-            )
-          })}
-          {!finished && (
-            <div className="text-muted">
-              {current}
-              <span className="animate-caret">▍</span>
-            </div>
-          )}
-        </div>
+      <div className="animate-fade-up border-l-2 border-ios pl-6 [animation-delay:150ms]">
+        <p className="font-mono text-[12px] uppercase tracking-[0.18em] text-muted">Currently</p>
+        <p className="mt-3 max-w-xs font-display text-xl leading-snug text-text">
+          Looking for a first full-time opportunity in mobile or web development.
+        </p>
+        <p className="mt-5 font-mono text-[12px] text-muted">Based in Saudi Arabia</p>
       </div>
     </section>
   )

@@ -2,7 +2,7 @@ const groups = [
   {
     label: 'Mobile',
     dot: 'bg-ios',
-    items: ['React Native', 'Expo', 'Expo Router', 'Expo Notifications'],
+    items: ['React Native', 'Expo', 'Expo Router', 'AsyncStorage', 'Notifications'],
   },
   {
     label: 'Languages',
@@ -12,12 +12,12 @@ const groups = [
   {
     label: 'Web',
     dot: 'bg-muted',
-    items: ['React', 'HTML5', 'CSS3'],
+    items: ['HTML5', 'CSS3', 'Responsive Design'],
   },
   {
     label: 'Tooling',
     dot: 'bg-muted',
-    items: ['Git', 'GitHub', 'AsyncStorage', 'ESLint'],
+    items: ['Git', 'GitHub', 'VS Code', 'Android Studio', 'Xcode'],
   },
 ]
 

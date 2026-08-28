@@ -12,6 +12,15 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    name: 'Salon Admin Dashboard',
+    tagline: 'Freelance · in progress',
+    description:
+      'A responsive Arabic RTL dashboard for a real salon client. It manages appointments, services, staff availability, blocked dates, and daily and weekly calendars with conflict checks.',
+    platforms: ['web'],
+    tech: ['HTML5', 'CSS3', 'JavaScript', 'LocalStorage'],
+    repoUrl: 'https://github.com/Ha1mad',
+  },
+  {
     name: 'HabitStreak',
     tagline: 'Habit tracker · Expo Router',
     description:

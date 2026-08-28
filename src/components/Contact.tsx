@@ -1,6 +1,6 @@
 import { GitHubIcon, MailIcon } from './Icons'
 
-const EMAIL = 'hmdalharby7@gmail.com'
+const EMAIL = '7hmdalharby@gmail.com'
 
 export function Contact() {
   return (
@@ -12,8 +12,8 @@ export function Contact() {
             Have something worth building?
           </h2>
           <p className="mt-3 max-w-md text-[15px] text-muted">
-            Open to mobile projects — new builds, or getting an existing app to
-            feel right on both platforms.
+            I’m open to junior opportunities, freelance collaborations, and teams
+            building thoughtful mobile or web products.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a
@@ -22,6 +22,12 @@ export function Contact() {
             >
               <MailIcon className="h-4 w-4" />
               {EMAIL}
+            </a>
+            <a
+              href="tel:+966544994035"
+              className="flex items-center rounded-lg border border-border px-5 py-2.5 text-[14px] text-text transition-colors hover:border-ios/50"
+            >
+              +966 54 499 4035
             </a>
             <a
               href="https://github.com/Ha1mad"

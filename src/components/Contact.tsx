@@ -1,6 +1,6 @@
 import { GitHubIcon, MailIcon } from './Icons'
 
-const EMAIL = '7hmdalharby@gmail.com'
+const EMAIL = 'hmdalharby7@gmail.com'
 
 export function Contact() {
   return (

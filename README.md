@@ -23,12 +23,11 @@
 ---
 
 ### Projects
-<div align="center">
-
-[![HabitStreak](https://github-readme-stats.vercel.app/api/pin/?username=Ha1mad&repo=HabitStreak&theme=tokyonight&hide_border=true)](https://github.com/Ha1mad/HabitStreak)
-[![Display-Errors-logs](https://github-readme-stats.vercel.app/api/pin/?username=Ha1mad&repo=Display-Errors-logs&theme=tokyonight&hide_border=true)](https://github.com/Ha1mad/Display-Errors-logs)
-
-</div>
+| Project | What it is |
+|---|---|
+| **[TNAFS · تنافس](https://github.com/Ha1mad/HabitStreak)** | Arabic-first habit app for iPhone, live on the [App Store](https://apps.apple.com/app/id6819559733). React Native, Expo, TypeScript, RevenueCat |
+| **[Display-Errors-logs](https://github.com/Ha1mad/Display-Errors-logs)** | Internship project: reads Windows Event Logs and shows errors in a web table. Python, JSON, HTML/JS |
+| **[Portfolio](https://ha1mad.github.io/portfolio/)** | My portfolio site. React, Vite, TypeScript, Tailwind |
 
 ---
 

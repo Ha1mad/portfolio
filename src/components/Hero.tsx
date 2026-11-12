@@ -5,7 +5,7 @@ export function Hero() {
     <section id="top" className="mx-auto grid max-w-5xl gap-12 px-6 pb-20 pt-16 sm:pt-24 lg:grid-cols-[1.15fr_.85fr] lg:items-end lg:pb-28">
       <div className="animate-fade-up">
         <p className="mb-4 font-mono text-[13px] text-muted">
-          Hamad Alharbi <span className="mx-1 text-border">/</span> Mobile &amp; Web Developer
+          Hamad Alharbi <span className="mx-1 text-border">/</span> Mobile Developer
         </p>
         <h1 className="font-display text-4xl font-semibold leading-[1.1] tracking-tight sm:text-5xl">
           Thoughtful software,
@@ -37,7 +37,7 @@ export function Hero() {
       <div className="animate-fade-up border-l-2 border-ios pl-6 [animation-delay:150ms]">
         <p className="font-mono text-[12px] uppercase tracking-[0.18em] text-muted">Currently</p>
         <p className="mt-3 max-w-xs font-display text-xl leading-snug text-text">
-          Looking for a first full-time opportunity in mobile or web development.
+          Building TNAFS, live on the App Store. Open to full-time mobile and front-end roles.
         </p>
         <p className="mt-5 font-mono text-[12px] text-muted">Based in Saudi Arabia</p>
       </div>

@@ -47,7 +47,7 @@ export function Projects() {
                   className="flex items-center gap-1.5 text-[13px] text-text transition-colors hover:text-ios"
                 >
                   <GitHubIcon className="h-4 w-4" />
-                  Source
+                  {p.repoLabel ?? 'Source'}
                 </a>
                 {p.liveUrl && (
                   <a
@@ -57,7 +57,7 @@ export function Projects() {
                     className="flex items-center gap-1.5 text-[13px] text-text transition-colors hover:text-ios"
                   >
                     <ExternalLinkIcon className="h-3.5 w-3.5" />
-                    Live demo
+                    {p.liveLabel ?? 'Live demo'}
                   </a>
                 )}
               </div>

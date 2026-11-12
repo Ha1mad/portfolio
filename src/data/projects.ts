@@ -7,27 +7,32 @@ export interface Project {
   platforms: Platform[]
   tech: string[]
   repoUrl: string
+  repoLabel?: string
   liveUrl?: string
+  liveLabel?: string
 }
 
 export const projects: Project[] = [
   {
-    name: 'Salon Admin Dashboard',
-    tagline: 'Freelance · in progress',
+    name: 'TNAFS · تنافس',
+    tagline: 'Live on the App Store · ~6,000 downloads',
     description:
-      'A responsive Arabic RTL dashboard for a real salon client. It manages appointments, services, staff availability, blocked dates, and daily and weekly calendars with conflict checks.',
-    platforms: ['web'],
-    tech: ['HTML5', 'CSS3', 'JavaScript', 'LocalStorage'],
-    repoUrl: 'https://github.com/Ha1mad',
+      'An Arabic-first habit and self-discipline app for iPhone that I built and run on my own. A Shield covers one missed day so a streak survives a slip. Full RTL with all six Arabic plural forms, subscriptions with RevenueCat and StoreKit 2, home-screen widgets, and analytics with PostHog. Live since October 2026.',
+    platforms: ['ios'],
+    tech: ['React Native', 'Expo', 'TypeScript', 'Expo Router', 'RevenueCat', 'i18next', 'PostHog', 'EAS'],
+    repoUrl: 'https://github.com/Ha1mad/HabitStreak',
+    repoLabel: 'Showcase',
+    liveUrl: 'https://apps.apple.com/app/id6819559733',
+    liveLabel: 'App Store',
   },
   {
-    name: 'HabitStreak',
-    tagline: 'Habit tracker · Expo Router',
+    name: 'Display Errors Logs',
+    tagline: 'Internship project · Windows event log viewer',
     description:
-      'A daily habit tracker built with Expo Router. Streak tracking with recovery saves, per-check-in notes, local reminders, and theme packs — built to feel calm rather than naggy.',
-    platforms: ['ios', 'android'],
-    tech: ['React Native', 'Expo', 'Expo Router', 'TypeScript', 'AsyncStorage', 'Expo Notifications'],
-    repoUrl: 'https://github.com/Ha1mad/HabitStreak',
+      'A small utility that reads Windows Event Logs, filters down to error events, and renders them in a browsable table — no digging through raw logs required.',
+    platforms: ['web'],
+    tech: ['Python', 'JSON', 'HTML', 'JavaScript'],
+    repoUrl: 'https://github.com/Ha1mad/Display-Errors-logs',
   },
   {
     name: 'Interactive Birthday Celebration',
@@ -38,14 +43,5 @@ export const projects: Project[] = [
     tech: ['HTML5', 'CSS3', 'JavaScript'],
     repoUrl: 'https://github.com/Ha1mad/Interactive-Birthday-Celebration-Web-App',
     liveUrl: 'https://ha1mad.github.io/Interactive-Birthday-Celebration-Web-App/',
-  },
-  {
-    name: 'Display Errors Logs',
-    tagline: 'Windows event log viewer',
-    description:
-      'A small utility that reads Windows Event Logs, filters down to error events, and renders them in a browsable table — no digging through raw logs required.',
-    platforms: ['web'],
-    tech: ['Python', 'JSON', 'HTML'],
-    repoUrl: 'https://github.com/Ha1mad/Display-Errors-logs',
   },
 ]

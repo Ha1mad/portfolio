@@ -20,7 +20,7 @@ export function Experience() {
               <li>Designed structured JSON storage and a JavaScript/HTML table for faster debugging.</li>
               <li>Documented the system with class, UI, and data-flow diagrams.</li>
             </ul>
-            <span className="whitespace-nowrap font-mono text-[12px] text-muted">6 months</span>
+            <span className="whitespace-nowrap font-mono text-[12px] text-muted">Nov 2025 – May 2026</span>
           </div>
         </div>
       </div>

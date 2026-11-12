@@ -2,22 +2,22 @@ const groups = [
   {
     label: 'Mobile',
     dot: 'bg-ios',
-    items: ['React Native', 'Expo', 'Expo Router', 'AsyncStorage', 'Notifications'],
+    items: ['React Native', 'Expo', 'Expo Router', 'Reanimated', 'EAS', 'TestFlight', 'RevenueCat', 'i18next (RTL)'],
   },
   {
     label: 'Languages',
     dot: 'bg-android',
-    items: ['TypeScript', 'JavaScript', 'Python'],
+    items: ['TypeScript', 'JavaScript', 'Python (basic)', 'Swift (basic)'],
   },
   {
     label: 'Web',
     dot: 'bg-muted',
-    items: ['HTML5', 'CSS3', 'Responsive Design'],
+    items: ['HTML5', 'CSS3', 'Responsive Design', 'Supabase', 'PostHog'],
   },
   {
     label: 'Tooling',
     dot: 'bg-muted',
-    items: ['Git', 'GitHub', 'VS Code', 'Android Studio', 'Xcode'],
+    items: ['Git', 'GitHub', 'VS Code', 'Xcode', 'Android Studio', 'App Store Connect'],
   },
 ]
 

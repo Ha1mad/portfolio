@@ -5,7 +5,7 @@ export function About() {
         <p className="font-mono text-[13px] text-muted">about</p>
         <div className="grid gap-8 sm:grid-cols-[1fr_220px]">
           <p className="max-w-2xl text-lg leading-relaxed text-text/90">
-            I’m a recent graduate with a Diploma in Application Programming from
+            I’m a recent graduate with a Diploma in Programming &amp; Applications from
             Qassim University. I enjoy turning practical ideas into polished mobile
             and web experiences, from the first screen to the small details that make
             a product reliable.
@@ -16,7 +16,7 @@ export function About() {
           <div className="space-y-5 border-l border-border pl-5 text-[13px]">
             <div>
               <p className="font-mono text-[11px] uppercase tracking-wider text-muted">Education</p>
-              <p className="mt-2 text-text">Diploma in Application Programming</p>
+              <p className="mt-2 text-text">Diploma in Programming &amp; Applications</p>
               <p className="mt-1 text-muted">Qassim University</p>
             </div>
             <div>
